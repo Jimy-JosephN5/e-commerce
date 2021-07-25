@@ -12,7 +12,7 @@
  <!-- ---------------------    -->
     <!-- header start -->
     <header>
-    <div class="container">
+    <div class="container" style="margin-bottom: 6rem;">
       <nav class="navbar p-3 navbar-expand-lg navbar-light" style="background-color: rgba(47, 160, 163, 0.261);">
         <a class="navbar-brand" href="#">
           <img src="images/logo.png" alt="" class="d-inline-block align-text-top"></a>
@@ -22,23 +22,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shoes</a>
+              <a class="nav-link" href="#shoes">Shoes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Backpack</a>
+              <a class="nav-link" href="#Backpack">Backpack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Subscribe</a>
+              <a class="nav-link" href="#subscribe">Subscribe</a>
             </li>
           </ul>
         </div>
     </nav>
     </div>  
-    <!-- carousel -->
-        <section class="container" style="background-color: #FCEAE8; border-radius: 15px; margin-top: 6rem;margin-bottom: 4rem;">
+    <!-- pic sliders -->
+        <section class="container" id="home" style="background-color: #FCEAE8; border-radius: 15px; margin-bottom: 4rem;">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -110,7 +110,7 @@
 <!-- main section start -->
  <main>
   <!-- Categoris -->
-  <section class="container" style="margin-bottom: 4rem;">
+  <section class="container" style="margin-bottom: 4rem;" id="shoes">
     <h1 style="font-weight: 630; text-align: center;">Categories</h1>
     <div class="row row-cols-lg-3 gy-5">
       <div class="col-12 col-lg-4 col-md-6">
@@ -181,11 +181,11 @@
   </section>
 
   <!-- Backpack  -->
-  <section class="container" style="margin-bottom: 7rem;">
+  <section class="container" style="margin-bottom: 7rem;" id="Backpack">
     <h1 style="font-weight: 630; text-align: center;">Backpack</h1>
     <div class="row row-cols-1 row-cols-md-3 g-4">
       <div class="col-12 col-lg-4 col-md-6">
-        <div class="card h-100 border-0 rounded-3 shadow" style="border-radius:.9rem!important;">
+        <div class="card h-100 border-0 rounded-3 shadow-lg" style="border-radius:.9rem!important;">
           <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h1 class="card-title" style="font-weight: 600;">Ogio</h1>
@@ -198,7 +198,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-4 col-md-6">
-        <div class="card h-100 border-0 shadow" style="border-radius:.9rem!important;">
+        <div class="card h-100 border-0 shadow-lg" style="border-radius:.9rem!important;">
           <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h1 class="card-title" style="font-weight: 600;">Burton</h1>
@@ -211,7 +211,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-4 col-md-6">
-        <div class="card h-100 border-0 shadow" style="border-radius:.9rem!important;">
+        <div class="card h-100 border-0 shadow-lg " style="border-radius:.9rem!important;">
           <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h1 class="card-title" style="font-weight: 600;">Wexley</h1>
@@ -228,7 +228,7 @@
   <!-- ------------- -->
   
   <!-- Email Submit section  -->
-  <section class="container" style="margin-bottom: 3rem;">
+  <section class="container" id="subscribe" style="margin-bottom: 3rem;">
     <div class="rounded-3 d-flex align-items-center justify-content-center" style="height: 300px; background-color: #FCEAE8;">
       <div>
         <h1>LETS STAY IN TOUCH</h1>
